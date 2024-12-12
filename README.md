@@ -13,7 +13,7 @@ This is a **fork** of the [original image_gallery_saver repository](https://gith
 
 ### Changes in This Fork:
 1. Added a `namespace` property to the `build.gradle` file to comply with newer Android Gradle Plugin requirements.
-2. Removed the `package` attribute from the `AndroidManifest.xml` file to fix build issues with AGP 7.2+.
+2. Removed the `package` attribute from the `AndroidManifest.xml` file to fix build issues with AGP 8.X+.
 
 If you're looking for the original, unmodified version, please visit the [original repository](https://github.com/hui-z/image_gallery_saver).
 
