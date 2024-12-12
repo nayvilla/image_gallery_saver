@@ -6,6 +6,19 @@
 
 We use the `image_picker` plugin to select images from the Android and iOS image library, but it can't save images to the gallery. This plugin can provide this feature.
 
+---
+
+## ⚠️ Fork Notice
+This is a **fork** of the [original image_gallery_saver repository](https://github.com/hui-z/image_gallery_saver). The purpose of this fork is to address compatibility issues with the Android Gradle Plugin 7.2+ by adding a `namespace` attribute and removing the deprecated `package` attribute in the AndroidManifest.xml file.
+
+### Changes in This Fork:
+1. Added a `namespace` property to the `build.gradle` file to comply with newer Android Gradle Plugin requirements.
+2. Removed the `package` attribute from the `AndroidManifest.xml` file to fix build issues with AGP 7.2+.
+
+If you're looking for the original, unmodified version, please visit the [original repository](https://github.com/hui-z/image_gallery_saver).
+
+---
+
 ## Usage
 
 To use this plugin, add `image_gallery_saver` as a dependency in your pubspec.yaml file. For example:
