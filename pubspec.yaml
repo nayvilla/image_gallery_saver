@@ -1,0 +1,31 @@
+name: image_gallery_saver
+description: "Fork: A flutter plugin for save image to gallery, iOS need to add the following keys to your Info.plist file."
+version: 2.0.4
+homepage: https://github.com/hui-z/image_gallery_saver
+
+environment:
+  sdk: ^3.5.4
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.imagegallerysaver
+        pluginClass: ImageGallerySaverPlugin
+      ios:
+        pluginClass: ImageGallerySaverPlugin
